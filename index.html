@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App for Redbit</title>
+ <link rel="stylesheet" href="styles/style.css">
+</head>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<body>
+  <div class="container clearfix">
+  <h1>Weather App for<img src="images/redbitlogo.png" alt=""></h1>
+    <div class="leftBar clearfix">      
+        <div class="formWrapper">
+            <header>      
+              <!-- Form left side -->   
+              <div class="form">
+                 <form action="" class="search">
+                    <label for="search">Enter Province or Country</label><br/>
+                    <span class="notFound"></span>
+                    <input type="search" name="province" id="province"><br>
+                   <label for="search">Enter City</label><br>
+                    <input type="search" name="city" id="city"> <br>
+                  <input class="buttonStyle" type="submit" value="GET RESULTS">
+                </form>
+              </div>
+            </header>
+        </div>
+      </div>
+    <!-- weather results right side -->
+    <section id="scrollDown" class="rightSide clearfix">
+        <!-- Response -->    
+      <div class="moreInfo clearfix">
+    
+              <article class="locationDetails clearfix">
+    
+                <div class="third">
+                  <h3>Weather Details</h3>
+                  <span class="locationCity"></span>
+                  <br>
+                  <span class="weather"></span>
+                  <br>
+                  <span class="temperature"></span>
+                  <br>
+                  <span class="windGustMph"></span>
+                  <br>
+                  <span class="windDirection"></span>
+                  <br>
+                  <span class="uv"></span>
+                  <br>
+                </div>
+    <!-- footer -->
+                <div class="funCopy">
+                  <p>Made by Danny Paton @ <a href="http://dannypaton.com" target="_blank">dannypaton.com</a>
+                  <a href="https://twitter.com/dannypaton_" target="_blank" ><i class="fa fa-twitter iconcolor"></i></a>
+                  <a href="https://www.linkedin.com/in/dannypaton" target="_blank">
+                  <i class="fa fa-linkedin iconcolor"></i></a>
+                  <a href="https://github.com/dannypaton" target="_blank">
+                  <i class="fa fa-github"></i></a>
+                  </p>
+                </div>
+            </article>    
+      </div>
+    
+    </section>
+  </div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="scripts/weather-app.js"></script>
+
+</body>
+</html>
