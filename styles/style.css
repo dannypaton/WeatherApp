@@ -169,9 +169,6 @@ details p {
   padding: 1.5%;
   min-height: 205px;
 }
-.third:nth-child(2) {
-background-color: rgba(0, 0, 0, 0.2);
-}
 .funCopy {
   text-align: center;
   display: block;
