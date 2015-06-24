@@ -164,9 +164,10 @@ details p {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .third {
-  width:33.33%;
+  width:100%;
   float: left;
   padding: 1.5%;
+  padding-left: 7%;
   min-height: 205px;
 }
 .third:nth-child(2) {
